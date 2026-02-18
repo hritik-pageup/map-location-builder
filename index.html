@@ -17,8 +17,14 @@
 
     <!-- Initialize -->
     <script>
+        // Auto-detect environment
+        // If on localhost, use the python server port. 
+        // If on Vercel/Production, use relative path (Read-Only mode, as Vercel static doesn't support file writing).
+        const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        const serverUrl = isLocal ? 'http://localhost:8000' : '';
+
         initProjectMap('my-map-container', {
-            serverUrl: 'http://localhost:8000'
+            serverUrl: serverUrl
         });
     </script>
 
