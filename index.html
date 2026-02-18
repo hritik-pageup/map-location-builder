@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Widget Demo</title>
+</head>
+
+<body style="margin: 0; font-family: sans-serif;">
+
+    <!-- Map Container -->
+    <div id="my-map-container"
+        style="width: 100%; height: 600px; border-top: 2px solid #333; border-bottom: 2px solid #333;"></div>
+
+    <!-- Include the functionality -->
+    <script src="map-widget.js"></script>
+
+    <!-- Initialize -->
+    <script>
+        initProjectMap('my-map-container', {
+            serverUrl: 'http://localhost:8000'
+        });
+    </script>
+
+</body>
+
+</html>

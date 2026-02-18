@@ -1,0 +1,57 @@
+[
+    {
+        "id": "loc_static_1",
+        "lat": 20.5937,
+        "lng": 78.9629,
+        "location": "India HQ",
+        "isActive": true,
+        "projects": [
+            {
+                "id": "p1",
+                "projectName": "Project Alpha"
+            },
+            {
+                "id": "p2",
+                "projectName": "Project Beta"
+            },
+            {
+                "id": "p_1771412226773",
+                "projectName": "Project Demo"
+            }
+        ]
+    },
+    {
+        "id": "loc_static_2",
+        "lat": 28.6139,
+        "lng": 77.209,
+        "location": "New Delhi Branch",
+        "isActive": true,
+        "projects": [
+            {
+                "id": "p3",
+                "projectName": "Government Initiative"
+            }
+        ]
+    },
+    {
+        "id": "loc_static_3",
+        "lat": 19.076,
+        "lng": 72.8777,
+        "location": "Mumbai Hub",
+        "isActive": true,
+        "projects": [
+            {
+                "id": "p_1771410188629",
+                "projectName": "Abhianv"
+            },
+            {
+                "id": "p_1771410194115",
+                "projectName": "Hritik"
+            },
+            {
+                "id": "p_1771410199669",
+                "projectName": "Raaj"
+            }
+        ]
+    }
+]
